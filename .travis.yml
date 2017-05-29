@@ -1,0 +1,10 @@
+language: python
+sudo: required
+python:
+  - "3.2"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+install: "pip3 install -r requirements.txt"
+script: python3 setup.py py2app -A
